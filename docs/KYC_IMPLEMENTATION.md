@@ -1,13 +1,13 @@
-# KYC Implementation Guide for CryptoBazar
+# KYC Implementation Guide for RupeeLink
 
 ## Overview
-This document outlines the comprehensive KYC (Know Your Customer) implementation strategy for CryptoBazar, implementing strict enhanced verification requirements to ensure maximum security and regulatory compliance.
+This document outlines the comprehensive KYC (Know Your Customer) implementation strategy for RupeeLink, a peer-to-peer INR ↔ USDC trading platform. The verification requirements are designed to ensure maximum security, regulatory compliance, and user trust across all trades.
 
 ## Regulatory Compliance
 - Adherence to Prevention of Money Laundering Act, 2002 (PMLA)
 - Compliance with SEBI and RBI guidelines for crypto exchanges
 - Implementation of FATF recommendations
-- Enhanced due diligence for all users
+- Enhanced due diligence for all RupeeLink users
 
 ## Mandatory KYC Requirements
 
@@ -44,6 +44,8 @@ This document outlines the comprehensive KYC (Know Your Customer) implementation
    - No partial access or limited functionality
    - Account activation only after complete verification
    - Regular re-verification requirements (every 6 months)
+
+---
 
 ## Technical Implementation
 
@@ -171,6 +173,8 @@ interface VerificationProcess {
 }
 ```
 
+---
+
 ## Rejection Criteria
 
 1. **Automatic Rejection Triggers**
@@ -189,6 +193,8 @@ interface VerificationProcess {
    - Inconsistent personal information
    - Suspicious behavior during video KYC
    - Unusual source of funds declaration
+
+---
 
 ## API Endpoints
 
@@ -213,6 +219,8 @@ POST /api/webhooks/video-kyc-completion
 POST /api/webhooks/risk-assessment
 ```
 
+---
+
 ## Security & Compliance
 
 1. **Document Security**
@@ -233,6 +241,8 @@ POST /api/webhooks/risk-assessment
    - IP whitelisting for admin panel
    - Comprehensive audit logging
 
+---
+
 ## Monitoring & Reporting
 
 1. **Real-time Monitoring**
@@ -246,6 +256,8 @@ POST /api/webhooks/risk-assessment
    - Risk assessment reports
    - Rejection reason analysis
    - Regulatory compliance reports
+
+---
 
 ## User Communication
 
@@ -261,22 +273,28 @@ POST /api/webhooks/risk-assessment
    - Appeal process information
    - Support contact details
 
+---
+
 ## Implementation Timeline
 
-### Week 1-2: Core Implementation
+### Week 1–2: Core Implementation
 - Document upload system
 - Verification API integrations
 - Database setup
 - Basic admin panel
 
-### Week 3-4: Enhanced Features
+### Week 3–4: Enhanced Features
 - Video KYC system
 - Risk assessment integration
 - Security implementations
 - Monitoring systems
 
-### Week 5-6: Testing & Refinement
+### Week 5–6: Testing & Refinement
 - Security testing
 - Load testing
 - Compliance verification
-- User acceptance testing 
+- User acceptance testing
+
+---
+
+*RupeeLink — Secure P2P Crypto Trading, Built for India.*
