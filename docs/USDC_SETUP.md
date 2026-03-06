@@ -1,4 +1,4 @@
-# CryptoBazar USDC Setup Guide
+# Rupee Link USDC Setup Guide
 
 ## Network Setup
 
